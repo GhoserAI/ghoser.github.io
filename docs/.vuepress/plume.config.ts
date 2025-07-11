@@ -45,6 +45,7 @@ export default defineThemeConfig({
   //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
   //   copyright: '',
   // },
+  footer: { message: "", copyright: "© 2025 GhoserAI" },
 
   /* 过渡动画 @see https://theme-plume.vuejs.press/config/basic/#transition */
   // transition: {
