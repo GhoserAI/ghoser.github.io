@@ -19,7 +19,7 @@ import { enNotes, zhNotes } from './notes'
  */
 export default defineThemeConfig({
   // logo: 'https://theme-plume.vuejs.press/plume.png',
-  logo: 'brand2.png',
+  logo: 'ghoser.png',
 
   appearance: true,  // 配置 深色模式
 
