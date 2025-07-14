@@ -14,7 +14,7 @@ config:
         -
           theme: brand
           text: 快速上手 →
-          link: /zh/blog/
+          link: /zh/guide/
         -
           theme: alt
           text: Github

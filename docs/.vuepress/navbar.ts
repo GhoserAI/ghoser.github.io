@@ -11,10 +11,7 @@ export const enNavbar = defineNavbarConfig([
     // {text: 'Blog', link: '/blog/'},
     // { text: 'Tags', link: '/blog/tags/' },
     // {text: 'Archives', link: '/blog/archives/'},
-    {
-        text: 'Guide',icon: 'icon-park-outline:guide-board',
-        items: [{text: 'Demo', link: '/notes/demo/README.md'}]
-    },
+    {text: 'Guide', icon: 'icon-park-outline:guide-board', link: '/guide/'},
 ])
 
 export const zhNavbar = defineNavbarConfig([
@@ -22,9 +19,10 @@ export const zhNavbar = defineNavbarConfig([
     // {text: '博客', link: '/zh/blog/'},
     // { text: '标签', link: '/zh/blog/tags/' },
     // {text: '归档', link: '/zh/blog/archives/'},
-    {
-        text: '指南', icon: 'icon-park-outline:guide-board',
-        items: [{text: '示例', link: '/zh/notes/demo/README.md'}]
-    },
+    // {
+    //     text: '指南', icon: 'icon-park-outline:guide-board',
+    //     items: [{text: '示例', link: '/zh/notes/guide/1.快速开始/'}]
+    // },
+    {text: '指南', icon: 'icon-park-outline:guide-board', link: '/zh/guide/'},
 ])
 

@@ -14,7 +14,7 @@ config:
         -
           theme: brand
           text: Get Started →
-          link: /blog/
+          link: /guide/
         -
           theme: alt
           text: Github

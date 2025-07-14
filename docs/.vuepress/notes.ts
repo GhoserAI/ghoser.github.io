@@ -23,16 +23,16 @@ import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 
 /* =================== locale: en-US ======================= */
 
-const enDemoNote = defineNoteConfig({
-  dir: 'demo',
+const enQuickStartNote = defineNoteConfig({
+  dir: 'guide',
   // `dir` 所指向的目录中的所有 markdown 文件，其 permalink 需要以 `link` 配置作为前缀
   // 如果 前缀不一致，则无法生成侧边栏。
   // 所以请确保  markdown 文件的 permalink 都以 `link` 开头
-  link: '/demo',
+  link: '/guide',
   // 手动配置侧边栏结构
-  sidebar: ['', 'Installation', 'Usage'],
+  // sidebar: ['', 'Installation', 'Usage'],
   // 根据文件结构自动生成侧边栏
-  // sidebar: 'auto',
+  sidebar: 'auto',
 })
 
 /**
@@ -43,21 +43,21 @@ const enDemoNote = defineNoteConfig({
 export const enNotes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [enDemoNote],
+  notes: [enQuickStartNote],
 })
 
 /* =================== locale: zh-CN ======================= */
 
-const zhDemoNote = defineNoteConfig({
-  dir: 'demo',
+const zhQuickStartNote = defineNoteConfig({
+  dir: 'guide',
   // `dir` 所指向的目录中的所有 markdown 文件，其 permalink 需要以 `link` 配置作为前缀
   // 如果 前缀不一致，则无法生成侧边栏。
   // 所以请确保  markdown 文件的 permalink 都以 `link` 开头
-  link: '/demo',
+  link: '/guide',
   // 手动配置侧边栏结构
-  sidebar: ['', 'Installation', 'Usage'],
+  // sidebar: ['', 'MacOs 安装', 'Usage'],
   // 根据文件结构自动生成侧边栏
-  // sidebar: 'auto',
+  sidebar: 'auto',
 })
 
 /**
@@ -66,8 +66,8 @@ const zhDemoNote = defineNoteConfig({
  * （zhDemoNote 为参考示例，如果不需要它，请删除）
  */
 export const zhNotes = defineNotesConfig({
-  dir: 'zh/notes',
-  link: '/zh/',
-  notes: [zhDemoNote],
+  dir: 'zh/notes/',
+  link: '/zn/',
+  notes: [zhQuickStartNote],
 })
 
