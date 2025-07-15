@@ -54,6 +54,10 @@ export default defineUserConfig({
 
     plugins: { git: true },
 
+    contributors: {
+      mode: 'block',
+    },
+
     /**
      * 博客
      * @see https://theme-plume.vuejs.press/config/basic/#blog
